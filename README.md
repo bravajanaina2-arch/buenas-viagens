@@ -33,7 +33,7 @@ O projeto foi desenvolvido a partir de um layout de referência no Figma, com es
 
 ## Link do Figma
 
-Coloque aqui o link do seu Figma.
+Layout de referência disponibilizado pelo professor em arquivo PDF.
 
 ## Autora
 
