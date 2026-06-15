@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =========================
+   CABEÇALHO / MENU
+========================= */
+
+.cabecalho {
+  background-color: #1f5fa8;
+  padding: 12px 6%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.lista-menu {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.lista-menu a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.lista-menu a:hover {
+  color: #ffb347;
+}
+
+/* =========================
+   HERO / BANNER
+========================= */
+
+.hero {
+  min-height: 260px;
+  background: linear-gradient(120deg, #244f7c, #6fa2c8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h2 {
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* =========================
+   FORMULÁRIO DE BUSCA
+========================= */
+
+.area-busca {
+  background-color: #1f5fa8;
+  padding: 18px 6%;
+}
+
+.form-busca {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 12px;
+}
+
+.form-busca input,
+.form-busca button {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+}
+
+.form-busca button {
+  background-color: #f5a623;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-busca button:hover {
+  background-color: #d88700;
+}
+
+/* =========================
+   BOTÃO PADRÃO
+========================= */
+
+.botao {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #ffffff;
+  padding: 9px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.botao:hover {
+  background-color: #d88700;
+}
+
+/* =========================
+   PRÓXIMOS PASSEIOS
+========================= */
+
+.passeios {
+  padding: 45px 6%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  align-items: center;
+}
+
+.texto-passeios h2,
+.destinos h2,
+.avaliacoes h2 {
+  color: #5a78ff;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.texto-passeios p {
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.imagens-passeios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.imagens-passeios img {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================
+   DESTINOS
+========================= */
+
+.destinos {
+  padding: 60px 6%;
+  background: linear-gradient(120deg, #f8dfc4, #e5d6ff);
+  text-align: center;
+}
+
+.cards-destinos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  text-align: left;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #dddddd;
+}
+
+.card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.card span {
+  color: #777777;
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+/* =========================
+   AVALIAÇÕES
+========================= */
+
+.avaliacoes {
+  padding: 60px 12%;
+  text-align: center;
+}
+
+.avaliacoes p {
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.avaliacoes img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #f5a623;
+  margin: 0 auto 15px auto;
+  background-color: #dddddd;
+}
+
+/* =========================
+   RODAPÉ
+========================= */
+
+.rodape {
+  background-color: #2f3f4a;
+  color: #ffffff;
+  padding: 35px 6%;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1.2fr;
+  gap: 35px;
+}
+
+.rodape h2,
+.rodape h3 {
+  margin-bottom: 12px;
+}
+
+.rodape p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form-newsletter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.form-newsletter input {
+  padding: 8px;
+  border: none;
+  flex: 1;
+}
+
+.form-newsletter button {
+  padding: 8px 16px;
+  background-color: #f5a623;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-newsletter button:hover {
+  background-color: #d88700;
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 900px) {
+  .cards-destinos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .passeios {
+    grid-template-columns: 1fr;
+  }
+
+  .rodape {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .lista-menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    min-height: 200px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .form-busca {
+    grid-template-columns: 1fr;
+  }
+
+  .cards-destinos {
+    grid-template-columns: 1fr;
+  }
+
+  .imagens-passeios {
+    grid-template-columns: 1fr;
+  }
+
+  .passeios,
+  .destinos,
+  .avaliacoes {
+    padding: 40px 5%;
+  }
+}
